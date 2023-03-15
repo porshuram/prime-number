@@ -29,6 +29,7 @@ while (test_number<limit ):
 	while (prime[i]<=sqrt(test_number)):
 		if test_number%prime[i]==0:
 			is_prime=0
+			break
 		i=i+1
 	if (is_prime):
 		#prime.append(test_number)
